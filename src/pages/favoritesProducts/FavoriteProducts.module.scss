@@ -1,0 +1,48 @@
+.favoriteOnehundred {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.favoritesCard {
+  /* Item */
+  position: static;
+  width: 360px;
+  height: 697px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 44px 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 60px;
+}
+
+.favoritesImg {
+  width: 360px;
+  height: 503px;
+}
+.favoritesButton {
+  width: 344px;
+  height: 50px;
+}
+.favoritesh {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.favoritesTag {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+}

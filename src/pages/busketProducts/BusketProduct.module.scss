@@ -1,0 +1,185 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.musora {
+  width: 1162px;
+  height: 189px;
+  left: 248px;
+  right: -248px;
+  top: 200px;
+  bottom: -142px;
+
+  .busketImage {
+    position: absolute;
+    width: 108px;
+    height: 136px;
+    left: 268px;
+    right: 786px;
+    top: 220px;
+    bottom: -109px;
+
+    border-radius: 10px;
+
+    background: url(), rgb(196, 196, 196);
+  }
+
+  .musoraFirst {
+    /* Frame 208 */
+    position: static;
+    width: 377px;
+    height: 36px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+
+  .musoraThird {
+    /* Frame 209 */
+    position: static;
+    width: 297px;
+    height: 20px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+    .busketRazmersFirst {
+      color: rgb(18, 19, 20);
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 20px;
+      letter-spacing: 0.3px;
+      text-align: right;
+    }
+
+    .busketRazmersSecond {
+      color: rgb(18, 19, 20);
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 20px;
+      letter-spacing: 0.3px;
+      text-align: right;
+    }
+  }
+
+  .musoraForth {
+    /* Frame 212 */
+    position: relative;
+    width: 214px;
+    height: 43px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+  }
+}
+
+.musoraZero {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1162px;
+  height: 72px;
+  top: 30px;
+  bottom: -30px;
+
+  p {
+    color: rgb(52, 54, 53);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  button {
+    /* bg */
+    position: static;
+    width: 120px;
+    height: 40px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    border-radius: 10px;
+
+    background: rgb(18, 19, 20);
+  }
+}
+
+.musoraFifth {
+  /* BG */
+  width: 1162px;
+  height: 54.24px;
+  left: 248px;
+  right: -248px;
+  top: 142px;
+  bottom: 50.76px;
+  border-radius: 10px;
+
+  background: rgb(255, 255, 255);
+
+  .busketColors {
+    color: rgb(18, 19, 20);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: right;
+  }
+
+  .musoraFifthFirst {
+    color: rgb(3, 2, 41);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+}
+
+.contImages {
+  display: flex;
+  gap: 10px;
+
+  img {
+    width: 17.6px;
+    height: 20px;
+  }
+}
+
+.farth {
+  display: flex;
+  justify-content: space-between;
+  left: 248px;
+  right: -248px;
+}

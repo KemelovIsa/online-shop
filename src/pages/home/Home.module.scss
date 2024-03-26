@@ -1,0 +1,91 @@
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.Cart {
+  position: static;
+  width: 260px;
+  height: 697px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px 0px 44px 0px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 60px;
+}
+
+.glav {
+  display: flex;
+  justify-content: flex-start;
+
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.korzina {
+  width: 344px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: rgb(18, 19, 20);
+  border-radius: none;
+  margin-top: 100px;
+}
+.images {
+  width: 344px;
+  height: 473px;
+  object-fit: cover;
+}
+.CardOne {
+  width: 344.34px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.container input {
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.container svg {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s;
+  fill: #666;
+}
+
+.container svg:hover {
+  transform: scale(1.1);
+}
+
+.container input:checked ~ svg {
+  fill: #e3474f;
+}
